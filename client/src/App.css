@@ -1,0 +1,84 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #ce9265;
+  text-align: center;
+}
+
+.location-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.location-form input, .location-form select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1 0 80px;
+}
+
+.location-form button {
+  padding: 8px 16px;
+  background-color: #ce9265;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.location-form button:hover {
+  background-color: #e6cab5;
+  color : rgb(66, 60, 50)
+}
+.location-form button:disabled {
+  background-color: #95a5a6;
+}
+
+.prayer-times {
+  margin-top: 20px;
+
+
+}
+/* Corrected CSS */
+.Prayer-times-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem; /* Optional spacing */
+}
+
+.Prayer-times-title h2 {
+  margin: 0; /* Removes default h2 margin */
+  font-size: 1.5rem; /* Optional: Adjust size */
+}
+.times-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.time-card {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.time-card h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.time-card p {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ce9265;
+}

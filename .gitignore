@@ -1,0 +1,21 @@
+# Ignore ALL node_modules everywhere
+**/node_modules/
+
+# Server-specific
+server/.env
+server/.env.*
+server/dist/
+
+# Client-specific (React/Vite)
+client/dist/
+client/.env
+client/.env.*
+client/.cache/
+
+# General ignores (for both)
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
+*.log
