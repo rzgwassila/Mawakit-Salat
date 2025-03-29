@@ -1,6 +1,6 @@
 # 🕌 Mawakit Salat - Prayer Times App
 
-![App Screenshot](client\public\screenshot.png) 
+![App Screenshot](/client/public/screenshot.png) 
 
 A beautiful prayer times application that displays accurate Salah times based on location, using the Aladhan API.
 
